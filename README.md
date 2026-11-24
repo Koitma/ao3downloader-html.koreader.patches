@@ -100,12 +100,6 @@ If a future plugin version renames those modules or methods, the patch does noth
   looked up by AO3 ID in the history.
 - AO3 rate limiting (HTTP 429) is reported as an error; the patch does not queue or retry for minutes.
 
-## Status
-
-v0.1.0. The logic is covered by a stubbed Lua test harness (menu entries, routing of HTML records away
-from the EPUB history, update dialogs, reader guard). Reports from real devices are welcome – please
-include the KOReader version, device, and the relevant `crash.log` lines.
-
 ## License
 
-MIT, see [LICENSE](LICENSE).
+MIT
